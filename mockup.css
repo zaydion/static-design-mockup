@@ -1,0 +1,334 @@
+/** RESETS **/
+* {
+  box-sizing: border-box;
+}
+
+/** HEADER **/
+header {
+  width: 100%;
+  padding-bottom: 20em;
+  background-color: rgb(28, 30, 38);
+}
+
+header img#lang {
+  float: right;
+  width: 150px;
+  height: 75px;
+  margin-top: 1em;
+}
+
+header img#logo {
+  display: center;
+  margin-left: 34em;
+  margin-top: 8em;
+  width: 275px;
+  height: 225px;
+}
+
+
+/** ABOUT **/
+
+.about {
+  width: 100%;
+  color: white;
+  padding-bottom: 20em;
+}
+
+.about h2 {
+  color: rgb(28, 30, 38);
+  font-family: "brandon-grotesque","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 300;
+  font-size: 39px;
+  margin-left: 5.5em;
+  margin-top: 4em;
+  position: relative;
+  letter-spacing: 3.2px;
+  font-size: 40px;
+}
+
+span#designer {
+  font-weight: 600;
+}
+
+ #about p {
+  width: 28em;
+  margin-left: 14em;
+  font-family: "minion-pro","Georgia",Cambria,Times New Roman,Times,serif;
+  color: #626262;
+  line-height: 1.9;
+}
+
+img#design {
+  width: 340px;
+  height: 275px;
+  float: right;
+  margin-right: 18em;
+  margin-top: -5em;
+}
+
+.round-button {
+  float: right;
+  margin-right: 13em;
+  display: block;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  border-radius: 50%;
+  text-align: center;
+  text-decoration: none;
+  background: rgb(28, 30, 38);
+  font-size: 2em;
+  color: white;
+  font-family: Georgia,'Times New Roman',serif;
+}
+
+.round-button:hover {
+    background: turquoise;
+}
+
+
+
+/** EXPERIENCE **/
+
+.experience {
+  position: relative;
+  width: 100%;
+  background-color: #fafafa;
+  padding-bottom: 20em;
+}
+
+.experience h2 {
+  float: right;
+  color: rgb(28, 30, 38);
+  font-family: "brandon-grotesque","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 300;
+  font-size: 39px;
+  margin-right: 8.5em;
+  margin-top: 6em;
+  position: relative;
+  letter-spacing: 3.2px;
+  font-size: 40px;
+}
+
+#design2 {
+  width: 200px;
+  height: 250px;
+  margin-left: 24em;
+  margin-top: 15em;
+}
+
+
+#description p {
+  float: right;
+  width: 28em;
+  margin-top: -11em;
+  margin-right: 14.7em;
+  font-family: "minion-pro","Georgia",Cambria,Times New Roman,Times,serif;
+  color: #626262;
+  line-height: 1.9;
+}
+/** PORTFOLIO **/
+
+.portfolio {
+  position: relative;
+  width: 100%;
+  padding-top: 7em;
+  padding-bottom: 15em;
+  background-color: #1c1e26;
+}
+
+#box {
+  margin-top: 12em;
+  margin-left: 21em;
+  width: 50%;
+  display: center;
+  border: solid 0.5px white;
+}
+
+.portfolio h2 {
+  margin-top: 2em;
+  text-align: center;
+  color: white;
+  letter-spacing: 2.3px;
+  font-size: 37px;
+  font-family: "brandon-grotesque","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: bold;
+}
+
+#box p {
+  position: relative;
+  margin-top: 2em;
+  line-height: 2.2;
+  text-align: center;
+  width: 31em;
+  margin-left: 6em;
+  color: #fff;
+  font-weight: lighter;
+  font-family: "minion-pro","Georgia",Cambria,Times New Roman,Times,serif;
+}
+
+
+#box2 p{
+  position: relative;
+  border: solid 0.5px white;
+
+  font-weight: lighter;
+  width: 22em;
+  margin-left: 11em;
+  margin-bottom: 3em;
+  padding: 1em;
+}
+
+#btn span {
+  font-family: "brandon-grotesque","Helvetica Neue",Helvetica,Arial,sans-serif;
+  color: #fff;
+  font-weight: bold;
+}
+
+/** SOCIAL **/
+
+.social {
+  position: relative;
+  width: 100%;
+  padding: 15em;
+  background-color: #00c1af;
+}
+
+#connect {
+  margin-left: -2.3em;
+}
+
+.social h2 {
+  font-family: "brandon-grotesque","Helvetica Neue",Helvetica,Arial,sans-serif;
+  color: #fff;
+  font-weight: 300;
+  font-size: 39px;
+  letter-spacing: 2px;
+}
+
+span #social {
+  font-weight: 600;
+}
+
+
+#tweet {
+  float: right;
+  margin-right: 5em;
+  margin-top: -8em;
+}
+
+span#social {
+  font-weight: 600;
+}
+
+.icons a {
+  color: white;
+  text-decoration: none;
+  display: inline;
+  margin-right: 6.7em;
+  margin-left: -3.2em;
+  font-size: 1.7em;
+}
+
+.icons span {
+  font-size: 14.9px;
+  padding-left: 1em;
+}
+
+.recent a {
+  color: white;
+  text-decoration: none;
+  margin-top: -8.9em;
+  margin-left: 16.8em;
+  position: absolute;
+  font-size: 26px;
+}
+
+a#tweet {
+  font-size: 1em;
+}
+
+.recent p {
+  position: absolute;
+  color: white;
+  margin-left: 30em;
+  margin-top: -15em;
+  width: 23em;
+}
+
+hr#line-break {
+  position: absolute;
+  width: 27em;
+  color: white;
+  margin-left: 27.1em;
+  margin-top: -11em;
+}
+
+a#second {
+  position: absolute;
+  margin-top: -5.1em;
+}
+
+p#tweet {
+  position: absolute;
+  margin-top: -9em;
+  margin-left: 30em;
+}
+
+/** CONTACT **/
+
+.contact{
+  position: relative;
+  width: 100%;
+  background-color: #1c1e26;
+  padding: 20em;
+}
+
+.contact h2 {
+  text-align: center;
+  font-family: "brandon-grotesque","Helvetica Neue",Helvetica,Arial,sans-serif;
+  color: #fff;
+  font-weight: 300;
+  letter-spacing: 0.1em;
+  font-size: 2em;
+
+}
+
+.contact #designer {
+  font-size: 1.2em;
+  letter-spacing: 0.1em;
+}
+
+.name p {
+  font-style: italic;
+  font-size: 1.2em;
+  color: white;
+  font-family: "Helvetica Neue",Helvetica,Arial,serif;
+  font-weight: 300;
+  padding: 1em;
+  margin-left: -2em;
+}
+
+.name #line {
+  display: flex;
+}
+
+.name span {
+  padding-left: 23em;
+}
+
+#text-form {
+  width: 120%;
+  padding: 7em;
+  margin-left: -2em;
+  border: solid white 1px;
+  background: #1c1e26;
+}
+
+hr#contact {
+  width: 118%;
+}
+
+
+
+/** FOOTER **/
